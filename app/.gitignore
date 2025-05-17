@@ -1,0 +1,54 @@
+# ========== SISTEMA ==========
+.DS_Store
+Thumbs.db
+
+# ========== ANDROID STUDIO / INTELLIJ ==========
+.idea/
+*.iml
+*.iws
+*.ipr
+*.sw?
+
+# ========== GRADLE ==========
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/caches/
+.gradle/daemon/
+.gradle/native/
+.gradle/wrapper/
+**/captures/
+
+# ========== LOCAL PROPERTIES ==========
+local.properties
+
+# ========== LOGS ==========
+*.log
+
+# ========== OS GENERATED FILES ==========
+*.orig
+*.tmp
+
+# ========== KOTLIN SPECIFIC ==========
+*.class
+*.jar
+*.war
+*.ear
+
+# ========== NDK / C++ ==========
+obj/
+
+# ========== FASTLANE ==========
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ========== OTHERS ==========
+*.keystore
+*.jks
+*.hprof
+
+# ========== VS CODE ==========
+.vscode/
